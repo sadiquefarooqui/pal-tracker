@@ -3,3 +3,5 @@ applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   host: sf-pal-tracker-review
+  services:
+  - tracker-database
